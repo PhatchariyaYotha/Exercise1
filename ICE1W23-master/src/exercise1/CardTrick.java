@@ -49,19 +49,19 @@ public class CardTrick {
         
         
         // Then loop through the cards in the array to see if there's a match.
-        boolean foundMatch = false;
+        boolean found = false;
 
         for (Card card : hand) {
             if (card.getValue() == userCard.getValue() && card.getSuit().equals(userCard.getSuit())) {
-                foundMatch = true;
+                found = true;
                 break;
             }
         }
 
-        if (foundMatch) {
+        if (found) {
             printInfo();
         } else {
-            System.out.println("Sorry, no match found.");
+            System.out.println("no match found.");
         }
     }
         
