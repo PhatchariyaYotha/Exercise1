@@ -79,6 +79,13 @@ public class CardTrick {
         System.out.println();
         
         System.out.println("I'm in Computer Programming:");
+        System.out.println("I like badminton:");
+        System.out.println("I have 1 dog:");
+        System.out.println("I'm from Thailand:");
+
+        
+
+
 
     }
 
